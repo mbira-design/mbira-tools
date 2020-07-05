@@ -26,6 +26,16 @@
   "scripts": {
     "sort": "npx sort-package-json"
   },
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.9.6"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }
