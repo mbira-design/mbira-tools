@@ -1,0 +1,32 @@
+{
+  "name": "@mbira-design/tools",
+  "version": "0.0.1",
+  "description": "Tools for mbira-desgin",
+  "keywords": [
+    "react",
+    "tools"
+  ],
+  "homepage": "https://github.com/mbira-design/mbira-tools#readme",
+  "bugs": {
+    "url": "https://github.com/mbira-design/mbira-tools/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbira-design/mbira-tools.git"
+  },
+  "license": "MIT",
+  "author": "Mbira design team",
+  "bin": {
+    "mbira-tools": "./bin/mbira-tools.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "sort": "npx sort-package-json"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
